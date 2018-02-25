@@ -1,0 +1,31 @@
+<resources>
+    <string name="google_maps_API_key"></string>
+    <string name="app_name">mytube</string>
+    <string name="title_activity_line_info">line_info</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="freeticket" />
+
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">nEXJTP8dVgrGvauv6VkU8F0BY</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">KNeQprPvykgtmljPSH8FsU9mH7kwpjrT4e7HfAt0HarJNHaRM2</string>
+    <string name="title_activity_near_me">nearMe</string>
+    <string name="title_activity_stations_near_me">stations_near_me</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="mytube">Bottom Navigation</string>
+    <string name="item_1">Live Status</string>
+    <string name="item_2">TfL Social</string>
+    <string name="item_3">Phone TfL</string>
+
+    <string name="wifiSettings">Open Network Settings</string>
+    <string name="readCachedNews">Read Offline</string>
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardUseCompatPadding="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground">
+            <TextView
+                android:id="@+id/tvTubeName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:text="Name"
+                android:textStyle="normal|bold"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/tvTubeStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_below="@+id/tvTubeName"
+                android:padding="10dp"
+                android:text="Desc"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

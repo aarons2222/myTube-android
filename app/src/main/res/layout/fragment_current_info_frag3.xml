@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.flatwhite.mytube.Fragments.current_info_frag3"
+    android:background="@drawable/homebackrgound">
+    <Button
+        android:text="Phone TfL"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dial"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="178dp"
+        android:textSize="24sp"
+        android:drawableLeft="@android:drawable/stat_sys_phone_call" />
+    <TextView
+        android:text="For the latest updates, you can call Transport for London  by pressing the call button below..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/blacki" />
+</RelativeLayout>

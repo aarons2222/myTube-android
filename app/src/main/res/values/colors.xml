@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4c4c4c</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#003688</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="homeButtons">#003688</color>
+
+    <color name="actionnBarBackground">#a2a2a2</color>
+    <color name="actionBarFont">#FFFFFF</color>
+
+    <color name="blacki">#4Da2a2a2</color>
+
+
+
+    <color name="green">#FFFFFF</color>
+
+    <color name="tab_background_selected">#003688</color>
+
+    <color name="tab_background_unselected">#a2a2a2</color>
+
+
+</resources>
